@@ -1,24 +1,25 @@
 {
-  "name": "nasubot",
+  "name": "nasu-bot",
   "version": "1.0.0",
   "description": "nasubot",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@line/bot-sdk": "^6.8.2",
     "express": "^4.17.1"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "test"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Mabuchin/nasu_bot.git"
+    "url": "git+ssh://git@github.com/Mabuchin/nasu-bot.git"
   },
   "author": "nasu",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mabuchin/nasu_bot/issues"
   },
-  "homepage": "https://github.com/Mabuchin/nasu_bot#readme"
+  "homepage": "https://github.com/Mabuchin/nasu-bot#readme"
 }
